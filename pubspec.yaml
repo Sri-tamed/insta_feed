@@ -1,0 +1,44 @@
+name: instagram_feed
+description: A pixel-perfect Instagram Home Feed replication built for UI/UX challenge.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management — using Riverpod for its compile-safe, boilerplate-free
+  # reactive approach. Much cleaner than Provider for list/pagination state.
+  flutter_riverpod: ^2.4.9
+
+  # Image caching — handles memory + disk cache, prevents re-downloads
+  cached_network_image: ^3.3.1
+
+  # Shimmer loading skeleton effect
+  shimmer: ^3.0.0
+
+  # Smooth page indicator for carousel dot indicator
+  smooth_page_indicator: ^1.1.0
+
+  # Google Fonts for Inter / typography matching Instagram's feel
+  google_fonts: ^6.1.0
+
+  # Icons — using cupertino + material; flutter_svg for logos
+  flutter_svg: ^2.0.9
+
+  # Timeago for "2h ago" style timestamps
+  timeago: ^3.6.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # No bundled assets — all images are loaded from network URLs
