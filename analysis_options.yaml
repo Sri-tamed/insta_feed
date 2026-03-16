@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Architecture rules
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_fields
+    - prefer_final_locals
+    - avoid_print
+    - avoid_unnecessary_containers
+
+    # Code quality
+    - always_declare_return_types
+    - annotate_overrides
+    - avoid_empty_else
+    - cancel_subscriptions
+    - close_sinks
+    - use_key_in_widget_constructors
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
