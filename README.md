@@ -250,5 +250,3 @@ The `.select()` call means this widget only rebuilds when *this specific post's*
 6. **Video Posts** — `video_player` package for Reels-style inline video
 
 ---
-
-*Built for the ZREX Flutter UI/UX Challenge — quality over quantity.*
