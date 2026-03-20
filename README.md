@@ -4,7 +4,7 @@ A pixel-perfect replication of the Instagram Home Feed built for the ZREX Flutte
 
 ---
 
-## Demo Checklist
+## Dem Checklist
 
 | Feature | Status |
 |---|---|
