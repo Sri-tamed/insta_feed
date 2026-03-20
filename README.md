@@ -55,7 +55,7 @@ No API keys. No environment variables. No `.env` file needed — the app uses pu
 
 ---
 
-## State Management Choice — Riverpod
+## State Management Choice ( Riverpod )
 
 **Why Riverpod over Provider or Bloc?**
 
